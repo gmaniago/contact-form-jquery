@@ -6,20 +6,33 @@
 	<title>Mobile</title>
 </head>
 <body>
+
 	<div class="container">
 		<form class="contactform">
 			<h2>Contact Us</h2>
-			<label>Name</label><br>
+			<label>Name<br>
 			<input type="text" placeholder=" Sally Smith" id="name">
-			<label>Email</label><br>
+			<div class="error" id="erName">Name cannot be left empty.</div>
+			</label>
+			<label>Email<br>
 			<input type="text" placeholder=" ssmith@gmail.com" id="email">
-			<label>Website</label><br>
+			<div class="error" id="erEmail">Email must contain an '@'.</div>
+			</label>
+			<label>Website<br>
 			<input type="text" placeholder=" http://mssmith.net" id="website">
-			<label>Message</label><br>
-			<textarea placeholder=" A friendly message..." id="text-area"></textarea>
+			<div class="error" id="erWebsite">Website must start with http://.</div>
+			</label>
+			<label>Message<br>
+			<div><textarea placeholder=" A friendly message..." id="text-area"></textarea></div>
+			<div class="error" id="erMessage">Message cannot be left empty.</div>
 			<input type="button" id="submit" value="Submit">
+			</label>
 		</form>
 	</div>
+
+	<section>Thank you for contacting us Sally Smith. We have received your message and will be in touch with you shortly.
+	</section>
+
 
     <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
 

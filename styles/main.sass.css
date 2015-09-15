@@ -43,6 +43,22 @@ textarea {
   color: white;
   border-style: none; }
 
+.error {
+  color: red;
+  padding-bottom: 1em; }
+
+section {
+  margin-top: 1em;
+  display: block;
+  vertical-align: center;
+  background-color: white;
+  width: 75%;
+  padding: 3em 2em;
+  margin: 0 auto; }
+
 @media screen and (min-width: 48em) {
   .container {
-    width: 40em; } }
+    width: 40em; }
+  #submit:hover {
+    transition-delay: .5s;
+    background: #88C470; } }
