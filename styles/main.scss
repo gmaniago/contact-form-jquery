@@ -1,0 +1,68 @@
+
+
+html, body {
+	margin: 0 auto;
+	font-family: Arial,Helvetica, sans-serif;
+	font-weight: lighter;
+	background: #211F2D;
+	width: 100%;
+	font-size: 1em;
+	padding-top: 1em;
+} 
+
+.container {
+	margin: 0 auto;
+	background: white;
+	width: 80%;
+	padding-left: 2em;
+}
+
+h2 {
+	padding-top: 1em;
+}
+
+input {
+	width: 94%;
+	height: 2em;
+	font-size: 1em;
+	font-weight: lighter;
+	border-color: #CCCCCC;
+	border-left: .3em solid #211F2D;
+	margin-bottom: 1em;
+}
+
+textarea {
+	width: 94%;
+	height: 8em;
+	font-size: 1em;
+	font-weight: lighter;
+	border-color: #CCCCCC;
+	border-left: .3em solid #211F2D;
+	margin-bottom: 1em;
+}
+
+#submit {
+	background: #211F2D;
+	font-size: 1em;
+	width: 10em;
+	height: 4.5em;
+	margin-bottom: 2em;
+	color: white;
+	border-style: none;
+}
+
+@media screen and (min-width: 48em) {	
+	.container {
+	width: 40em;
+}
+}
+
+
+
+
+
+
+
+
+
+
