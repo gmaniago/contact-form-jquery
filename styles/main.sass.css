@@ -7,58 +7,60 @@ html, body {
   font-size: 1em;
   padding-top: 1em; }
 
-.container {
-  margin: 0 auto;
-  background: white;
-  width: 80%;
-  padding-left: 2em; }
+section {
+  margin: 5em;
+  background-color: white;
+  padding: 2em; }
 
-h2 {
-  padding-top: 1em; }
+label {
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  margin-bottom: .3em; }
 
 input {
-  width: 94%;
-  height: 2em;
-  font-size: 1em;
+  width: 100%;
+  border: solid #CCCCCC 1px;
+  border-left: solid black 5px;
+  font-size: 16px;
   font-weight: lighter;
-  border-color: #CCCCCC;
-  border-left: .3em solid #211F2D;
-  margin-bottom: 1em; }
+  padding: .2em;
+  margin-bottom: .3em; }
 
 textarea {
-  width: 94%;
-  height: 8em;
-  font-size: 1em;
-  font-weight: lighter;
-  border-color: #CCCCCC;
-  border-left: .3em solid #211F2D;
-  margin-bottom: 1em; }
+  width: 100%;
+  border: solid #CCCCCC 1px;
+  border-left: solid black 5px;
+  font-size: 16px;
+  padding: .2em; }
 
-#submit {
+h1 {
+  font-family: sans-serif; }
+
+button {
   background: #211F2D;
   font-size: 1em;
-  width: 10em;
-  height: 4.5em;
+  width: 6em;
+  height: 3em;
   margin-bottom: 2em;
   color: white;
-  border-style: none; }
+  border-style: none;
+  margin-top: 1em; }
 
 .error {
+  font-size: 1em;
+  font-weight: bolder;
   color: red;
-  padding-bottom: 1em; }
+  margin-bottom: .3em;
+  font-family: sans-serif; }
 
-section {
-  margin-top: 1em;
-  display: block;
-  vertical-align: center;
-  background-color: white;
-  width: 75%;
-  padding: 3em 2em;
-  margin: 0 auto; }
+button:hover {
+  transition-property: background-color;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  background-color: #00B962; }
 
-@media screen and (min-width: 48em) {
-  .container {
-    width: 40em; }
-  #submit:hover {
-    transition-delay: .5s;
-    background: #88C470; } }
+@media (min-width: 743px) {
+  section {
+    width: 649px;
+    margin: 0 auto;
+    margin-top: 2em; } }
