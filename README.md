@@ -1,9 +1,77 @@
-<<<<<<< HEAD
-# tiyfe-template
-test
-dds
-sdfsdf
-=======
-# contact-form-jquery
-Contact form using jquery
->>>>>>> 69eb988e500e48c2ccbc2c4043800fc572af8262
+# jQuery Contact Form
+
+## Description
+jQuery Contact Form
+
+
+## Objectives
+
+### Learning Objectives
+
+After completing this assignment, you should…
+
+* Understand how to do form validation using jQuery.
+
+
+### Performance Objectives
+
+After completing this assignment, you be able to effectively use
+
+* $.val()
+* $.html()
+* $.on()
+* $.css()
+* $.show()
+* $.hide()
+
+
+
+
+## Details
+
+### Deliverables
+
+* A repo containing at least:
+  * `index.html`
+  * `scripts/main.js`
+  * `images/bg.jpg`
+  * `package.json`
+
+### Requirements
+
+* No JSHint warnings or errors
+
+
+## Normal Mode
+Create a contact form with the following fields: name, email, website and message. The form should also have a submit button. When the submit button is clicked (or the enter key is presses) it should validate all of the form fields and show *all* errors in the form data. Use CSS to style the form to be responsive. When you mouse over the submit button the background color should fade to a green color (#88C470) over the course of 0.5 seconds. If a user tries to submit the form and two or more fields are invalid, and then proceeds to fix one of the errors but not both, the error message should disappear for the field that was fixed.
+
+### Resources
+* [Background Image](/bg.jpg)
+
+### Errors
+* Name cannot be left empty
+* Email cannot be left empty
+* Email must contain an '@'
+* Website cannot be left empty
+* Website must start with http://
+* Message cannot be left empty
+
+### Mobile
+![Mobile](/mobile.png)
+### Desktop
+![Desktop](/desktop.png)
+### Error example
+![Error](/error.png)
+### Success page
+![Success](/success.png)
+
+## Hard Mode
+Use a keyup event to validate the form as a user is typing in content. The form should show a red left border on the input element (but not any error text) if the input is invalid as the user is typing. Only after they click the submit button should it actually show the error messages.
+
+
+## Notes
+
+
+## Additional Resources
+
+* [validator-js](https://github.com/chriso/validator.js)
